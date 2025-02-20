@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+             24 Oktober 2024
+        </title>
+        <style>
+            body {
+                background-color: aquamarine;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                
+                padding: 20px;
+            }
+            h1 {
+                color: rgb(255, 153, 0);
+            }
+            h2 {
+                color: brown;
+            }
+            h3 {
+                color: blueviolet;
+            }
+            .button {
+                font-size: large;
+                font-weight: bold;
+                padding: 20px;
+                background-color: bisque;
+                border: 2px solid black;
+                border-radius: 50px;
+
+            }
+            .button:hover{
+                transform: scale(1.1);
+                background-color: black;
+                color: aliceblue;
+            }
+
+        </style>
+    </head>
+   <body>
+    <h1>Selamat Datang di Toko Buku EL Gaot</h1> 
+    <h3>Toko buku ini pernah didatangi fufufafa</h3><br><br>
+    <div>
+    <button id="1" class="button">Buku Pelajaran</button>
+    <button id="2" class="button">Buku Dongeng</button>
+    <button id="3" class="button">Komik</button>
+    <button id="4" class="button">Novel</button>
+    <button id="5" class="button">Biografi</button>
+    <button id="6" class="button">Buku Terlarang</button><br><br>
+    <input id="profil" class="button" type="button" value="About Us" />
+    </div><br><br>
+
+    <div id="content"></div>
+
+    <script>
+        document.getElementById("1").addEventListener("click" , data1);
+        document.getElementById("2").addEventListener("click" , data2);
+        document.getElementById("3").addEventListener("click" , data3);
+        document.getElementById("4").addEventListener("click" , data4);
+        document.getElementById("5").addEventListener("click" , data5);
+        document.getElementById("6").addEventListener("click" , data6);
+        document.getElementById("profil").addEventListener("click" , profil);
+
+        function data1() {
+            var contentDiv = document.getElementById("1");
+
+                contentDiv.innerHTML = `
+                <h1>Buku Pelajaran
+                <h2>Periode Juni 2022 - Juni 2023
+                <h3>KIMIA
+                <h3>FISIKA
+                <h3>BIOLOGI
+                <h3>MATEMATIKA
+                    `;}
+        function data2() {
+            var contentDiv = document.getElementById("2");
+
+                contentDiv.innerHTML = `
+                <h1>Buku Dongeng
+                <h2>Periode Juni 2022 - Juni 2023
+                <h3>Sangkuriang
+                <h3>Malin Kundang
+                <h3>Timun Mas
+                <h3>Ambatublow
+                    `;}
+        function data3() {
+            var contentDiv = document.getElementById("3");
+
+                contentDiv.innerHTML = `
+                <h1>Komik
+                <h2>Periode Juni 2022 - Juni 2023
+                <h3>Naruto
+                <h3>One Piece
+                <h3>Sakamoto Days
+                <h3>Monster
+                    `;}
+        function data4() {
+            var contentDiv = document.getElementById("4");
+
+                contentDiv.innerHTML = `
+                <h1>Novel
+                <h2>Periode Juni 2022 - Juni 2023
+                <h3>Hujan
+                <h3>Bumi
+                <h3>Bulan
+                <h3>Rantau Muara
+                    `;} 
+        function data5() {
+            var contentDiv = document.getElementById("5");
+
+                contentDiv.innerHTML = `
+                <h1>Biografi
+                <h2>Periode Juni 2022 - Juni 2023
+                <h3>Biografi Asik 1
+                <h3>Biografi Asik 2
+                <h3>Biografi Asik 3
+                <h3>Biografi Asik 4
+                    `;}   
+        function data6() {
+            var contentDiv = document.getElementById("6");
+
+                contentDiv.innerHTML = `
+                <h1>Buku Terlarang
+                <h2>Periode Juni 2022 - Juni 2023
+                <h3>Buku Rahasia Bagian 0
+                <h3>Buku Rahasia Bagian 1
+                <h3>Buku Rahasia Bagian 2
+                <h3>Buku Rahasia Bagian 3
+                    `;}
+            function profil() {
+                var contentDiv = document.getElementById("content");
+                contentDiv.innerHTML = `
+                <h2>About Us
+                <h3>Ayo.. Ayo.. Ganyang fufufafa
+                <h1>Renji lop Lindsay 
+                `;
+            }
+    </script>
+    </body>
+</html>

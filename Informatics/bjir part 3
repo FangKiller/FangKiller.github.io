@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Biodata Siswa
+        </title>
+    </head>
+   <body>
+        <style>
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                background-color: rgb(0, 0, 0)
+            }
+            h1 {
+                color: cyan;
+                text-align: center;
+            }
+
+            h2 {
+                color: white
+            }
+        </style>
+        <h1>Biodata</h1>
+        <h2>Nama: Alfin the chipmunk</h2>
+        <h2>Kelas: XA</h2>
+        <h2>Sekolah: SMAK St. Hendrikus Surabaya</h2>
+        <h2>Tanggal Lahir: 18 Juni 2009</h2>
+        <h2>Umur: 65
+             Tahun</h2>
+    </body>
+</html>
+  
